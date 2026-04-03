@@ -1,7 +1,7 @@
-package MariosPizzaBar.service;
+package service;
 
-import MariosPizzaBar.model.Pizza;
-import MariosPizzaBar.util.ErrorHandler;
+import model.Pizza;
+import util.ErrorHandler;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class FileHandlerMenu {
 
-    private static final String MENU = "src/MariosPizzaBar/pizzamenu.csv";
+    private static final String MENU = "src/pizzamenu.csv";
     private static ArrayList<Pizza> pizzaMenu = new ArrayList<>();
 
     public ArrayList<Pizza> getPizzas() {

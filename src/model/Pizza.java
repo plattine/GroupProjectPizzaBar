@@ -1,4 +1,4 @@
-package MariosPizzaBar.model;
+package model;
 
 public class Pizza {
     //variabler til Pizza

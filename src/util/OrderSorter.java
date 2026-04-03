@@ -1,6 +1,6 @@
-package MariosPizzaBar.util;
+package util;
 
-import MariosPizzaBar.model.Order;
+import model.Order;
 
 import java.util.ArrayList;
 import java.util.Comparator;

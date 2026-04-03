@@ -1,9 +1,9 @@
-package MariosPizzaBar.service;
+package service;
 
-import MariosPizzaBar.model.Order;
-import MariosPizzaBar.model.Pizza;
-import MariosPizzaBar.model.Size;
-import MariosPizzaBar.util.ErrorHandler;
+import model.Order;
+import model.Pizza;
+import model.Size;
+import util.ErrorHandler;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ import java.sql.Timestamp;
 
 public class FileHandlerOrderList {
 
-    private static final String ORDERLIST = "src/MariosPizzaBar/bestillingsliste.csv";
+    private static final String ORDERLIST = "src/bestillingsliste.csv";
     private static ArrayList<Order> pizzaOrder = new ArrayList<>();
     private static FileHandlerHistory handlerHistory = new FileHandlerHistory();
 

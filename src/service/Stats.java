@@ -1,7 +1,7 @@
-package MariosPizzaBar.service;
+package service;
 
 import java.util.ArrayList;
-import MariosPizzaBar.model.Order;
+import model.Order;
 
 public class Stats {
     //Finder den mest populære pizza ud historikkens ArrayList

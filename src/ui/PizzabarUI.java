@@ -1,10 +1,11 @@
-package MariosPizzaBar.ui;
+package ui;
 
-import MariosPizzaBar.service.*;
-import MariosPizzaBar.util.ErrorHandler;
-import MariosPizzaBar.util.*;
-import MariosPizzaBar.model.*;
-import static MariosPizzaBar.service.Stats.Stats;
+import service.*;
+import model.Drinks;
+import model.Pizza;
+import util.*;
+import model.*;
+import static service.Stats.Stats;
 
 import java.util.Scanner;
 

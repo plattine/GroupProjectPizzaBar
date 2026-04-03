@@ -1,6 +1,6 @@
-package MariosPizzaBar.app;
+package app;
 
-import static MariosPizzaBar.ui.PizzabarUI.start;
+import static ui.PizzabarUI.start;
 
 public class PizzabarApp {
     public static void main(String[] args){

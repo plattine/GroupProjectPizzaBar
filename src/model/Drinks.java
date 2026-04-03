@@ -1,6 +1,6 @@
-package MariosPizzaBar.model;
+package model;
 
-import MariosPizzaBar.util.Color;
+import util.Color;
 
 public class Drinks {
 

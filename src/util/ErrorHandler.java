@@ -1,7 +1,5 @@
-package MariosPizzaBar.util;
-import MariosPizzaBar.util.Color;
+package util;
 
-import java.sql.ResultSet;
 import java.util.InputMismatchException;
 import java.io.IOException;
 

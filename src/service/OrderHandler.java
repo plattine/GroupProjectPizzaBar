@@ -1,9 +1,7 @@
-package MariosPizzaBar.service;
+package service;
 
-import MariosPizzaBar.model.*;
-import MariosPizzaBar.util.Color;
-import MariosPizzaBar.util.ErrorHandler;
-import MariosPizzaBar.util.OrderSorter;
+import model.*;
+import util.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -140,7 +138,7 @@ public class OrderHandler {
 
     // fjerner order fra orders og tilføjer til Historik.csv
     public static void concludeOrder() {
-        System.out.println("Conclude order begyndt");
+        //System.out.println("Conclude order begyndt");
 
         System.out.println("Hvor mange ordre vil du færdiggøre?");
         int pizzaAntal = Integer.parseInt(scanner.nextLine());

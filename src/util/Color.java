@@ -1,4 +1,4 @@
-package MariosPizzaBar.util;
+package util;
 
 public class Color {
 

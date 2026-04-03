@@ -1,17 +1,17 @@
-package MariosPizzaBar.service;
-import MariosPizzaBar.model.*;
-import MariosPizzaBar.util.Color;
+package service;
+import model.*;
+import util.Color;
 import java.io.*;
 
 import java.util.ArrayList;
-import MariosPizzaBar.util.ErrorHandler;
+import util.ErrorHandler;
 
 
 
 
 public class FileHandlerHistory {
 
-    private static final String HISTORIK = "src/MariosPizzaBar/Historik.csv";
+    private static final String HISTORIK = "src/Historik.csv";
     private static ArrayList<Order> pizzaHistory = new ArrayList<>();
 
 

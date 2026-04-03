@@ -1,4 +1,4 @@
-package MariosPizzaBar.model;
+package model;
 
 public abstract class Customer {
 
